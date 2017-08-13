@@ -7,6 +7,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { routing } from './app.routing';
 import { HomeComponent } from './Components/home.component';
+import { UserService } from './Service/user.service';
 
 @NgModule({
     imports: [BrowserModule, ReactiveFormsModule, HttpModule, routing],
